@@ -6,6 +6,12 @@
 #+html: <a href="http://elpa.gnu.org/devel/posframe.html"><img alt="GNU-devel ELPA" src="https://elpa.gnu.org/devel/posframe.svg"/></a>
 #+html: <a href="https://melpa.org/#/posframe"><img alt="MELPA" src="https://melpa.org/packages/posframe-badge.svg"/></a>
 
+* Motivation
+
+This is fork is made specifically to enable pixelwise posframe size control. Character based size control is simply not percise enough to align posframe to other elements on screen. I personally use pixelwise control to vertically align vertico-posframe to header line, which is most likely not multiple of frame-char-pixel in width. 
+
+New options pixel-width/height is added to posframe-show to specify exact dimensions of a posframe. The options is effective only when width/height is specified, and will ignore min/max-width/height options. 
+
 * What is posframe?
 Posframe can pop up a frame at point, this *posframe* is a
 child-frame connected to its root window's buffer.
