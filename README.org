@@ -8,7 +8,7 @@
 
 * Motivation
 
-This is fork is made specifically to enable pixelwise posframe size control. Character based size control is simply not percise enough to align posframe to other elements on screen. I personally use pixelwise control to vertically align vertico-posframe to header line, which is most likely not multiple of frame-char-pixel in width. 
+This fork is made specifically to enable pixelwise posframe size control. Character based size control is simply not percise enough to align posframe to other elements on screen. I personally use pixelwise control to vertically align vertico-posframe to header line, which is most likely not multiple of frame-char-pixel in width. 
 
 New options pixel-width/height is added to posframe-show to specify exact dimensions of a posframe. The options is effective only when width/height is specified, and will ignore min/max-width/height options. 
 
